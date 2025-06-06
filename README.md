@@ -19,6 +19,30 @@
 # DATA PREPARATION PROCESSING
 - Binary Encoding
 - Adding new imporntant features
+  ## Imports and libraries used
+    - `import numpy as np`
+    -  `import pandas as pd`
+    - `import seaborn as sns`
+    - `import statsmodels.api as sm`
+    - `import matplotlib.pyplot as plt`
+    
+    - `from collections import Counter`
+    - `from imblearn.over_sampling import SMOTE`
+    - `from sklearn.preprocessing import MinMaxScaler`
+    - `from sklearn.tree import DecisionTreeClassifier`
+    - `from sklearn.preprocessing import StandardScaler`
+    - `from statsmodels.tools.tools import add_constant`
+    - `from sklearn.model_selection import train_test_split`
+    - `from sklearn.ensemble import GradientBoostingClassifier`
+    - `from sklearn.linear_model import Ridge, Lasso, LogisticRegression`
+    - `from sklearn.metrics import classification_report, confusion_matrix`
+    - `from statsmodels.stats.outliers_influence import variance_inflation_factor`
+    - `from sklearn.metrics import mean_squared_error,roc_auc_score, roc_curve, auc`
+    
+    # Hiding warnings 
+    import warnings
+    warnings.filterwarnings("ignore")
+`
   ## Explanatory Data Analysis
   1. Understanding relationship between other features and our target `quality`.
      ![image](https://github.com/user-attachments/assets/7777467e-9695-4264-86f3-bf40b053ac09)
